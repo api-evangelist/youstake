@@ -1,7 +1,24 @@
 aid: youstake
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/youstake.png
 name: YouStake
-description: YouStake is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: YouStake is a peer-to-peer sports staking and sponsorship marketplace, founded in 2013,
+  that lets fans invest in skilled poker and esports players in exchange for a share of their tournament
+  winnings. Players list their buy-ins and backers can stake them for as little as $20, structured as a
+  person-to-person sponsorship agreement rather than gambling. The consumer platform has since rebranded
+  and now operates as StakeKings (youstake.com redirects to stakekings.com), which also offers white-label
+  staking-marketplace software to partners. It is a business-to-consumer web application with no public
+  API, developer portal, SDKs, or published API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/youstake/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Sports
+- Staking
+- Poker
+- Esports
+- Marketplace
+- Crowdfunding
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://youstake.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
